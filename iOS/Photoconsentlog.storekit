@@ -1,0 +1,42 @@
+{
+  "identifier" : "Photoconsentlog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "PHOTOCONSENTLOGGROUP",
+      "localizations" : [],
+      "name" : "Photoconsentlog Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "photoconsentlogsub001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Shared-photo audit export and reminder to review old posts",
+              "displayName" : "Photoconsentlog Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.photoconsentlog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Photoconsentlog Pro Monthly",
+          "subscriptionGroupID" : "PHOTOCONSENTLOGGROUP",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
